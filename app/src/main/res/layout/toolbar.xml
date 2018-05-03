@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/iv_toolbar_logo"
+                            android:layout_width="@dimen/heading_logo_size"
+                            android:layout_height="@dimen/heading_logo_size"
+                            android:layout_marginEnd="@dimen/dimen_5dp"
+                            android:scaleType="centerCrop"
+                            android:layout_centerVertical="true"/>
+
+                        <TextView
+                            android:id="@+id/tv_toolbar_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/iv_toolbar_logo"
+                            android:textColor="@color/color_yellow"
+                            android:textSize="@dimen/text_heading_size_x"
+                            android:fontFamily="@font/hasta_girl"
+                            android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_primary">
+
+        <ImageView
+            android:id="@+id/iv_logo_main"
+            android:layout_width="@dimen/dimen_100dp"
+            android:layout_height="@dimen/dimen_100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_80dp"
+            android:src="@drawable/sunflower_blossom_pot"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_heading_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_logo_main"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/app_name"
+            android:textColor="@color/color_yellow"
+            android:textSize="@dimen/text_heading_size_x"
+            android:fontFamily="@font/hasta_girl"/>
+
+        <TextView
+            android:id="@+id/tv_sub_heading_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/tv_heading_main"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:text="@string/sub_heading_main"
+            android:textSize="@dimen/text_heading_size"
+            android:textColor="@color/color_yellow"
+            android:fontFamily="@font/delight_script"/>
+
+        <Button
+            android:id="@+id/btn_enter_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_sub_heading_main"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_yellow"
+            android:text="@string/string_enter"
+            android:textSize="@dimen/text_primary_size"
+            android:fontFamily="@font/delight_script"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:text="@string/app_version"
+            android:textColor="@color/color_yellow"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

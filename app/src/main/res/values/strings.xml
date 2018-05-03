@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android Sample</string>
+    <string name="sub_heading_main">welcome to android sample app!</string>
+    <string name="string_enter">Enter</string>
+    <string name="app_version">Application Version - 1.0.1</string>
+    <string name="string_home">Home</string>
+    <string name="string_memo_text">Memo Text</string>
+    <string name="string_flower_type">Flower Type</string>
+    <string name="string_yes">Yes</string>
+    <string name="string_no">No</string>
+    <string name="string_radio">Make Bonquet?</string>
+    <string name="string_color">Color</string>
+    <string name="string_red">Red</string>
+    <string name="string_yellow">Yellow</string>
+    <string name="string_pink">Pink</string>
+    <string name="string_white">White</string>
+    <string name="string_quantity">Quantity</string>
+    <string name="string_order">Order</string>
+    <string name="string_list">List</string>
+
+    <string name="flower_prompt">Choose a flower</string>
+    <string-array name="flower_arrays">
+        <item>Rose</item>
+        <item>Lily</item>
+        <item>Orchid</item>
+        <item>Tulip</item>
+        <item>Other</item>
+    </string-array>
+</resources>
